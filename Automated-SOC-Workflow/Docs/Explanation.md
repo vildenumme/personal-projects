@@ -17,6 +17,6 @@ This workflow connects Splunk with n8n to automate SOC alerts.
 3. **🔔 Slack Notification**
    - Displays all relevant details (IOC, risk, recommended actions)
 
-###💡 Example Use Case
+### 💡 Example Use Case
 - Splunk detects 10 failed logins → workflow enriches and sends alert in <10 seconds.
 

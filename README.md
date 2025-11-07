@@ -16,7 +16,6 @@ Build an end-to-end automated SOC pipeline using **Splunk**, **n8n**, **AI**, an
 
 📸 *Includes screenshots, architecture diagram, and documentation*  
 
-
 ---
 
 ### 🕵️ [Threat Intel Analysis](./Threat-Intel-analysis)

@@ -1,8 +1,8 @@
 # Manual Log Analysis — Compromised WordPress
 
 ### 📘 Overview
-This project demonstrates a **manual forensic-style investigation** of a compromised WordPress web server.  
-All analysis was performed **without using a SIEM or specialized tools** — only basic **Linux commands** such as `grep`, `cut`, `sort`, and `uniq`.
+This project demonstrates a **manual log analysis** of a compromised WordPress web server.  
+All analysis was performed **without using a SIEM or specialized tools**. I've only used basic **Linux commands** such as `grep`, `cut`, `sort`, and `uniq`.
 
 The goal was to build confidence with command-line log analysis by extracting indicators (IP, path, filename) and creating a short timeline of events.
 

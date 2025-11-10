@@ -1,6 +1,6 @@
 # Manual Log Analysis — Compromised WordPress
 
-## 📘 Overview
+### 📘 Overview
 This project demonstrates a **manual forensic-style investigation** of a compromised WordPress web server.  
 All analysis was performed **without using a SIEM or specialized tools** — only basic **Linux commands** such as `grep`, `cut`, `sort`, and `uniq`.
 
@@ -10,7 +10,7 @@ The goal was to build confidence with command-line log analysis by extracting in
 
 ---
 
-## 🧩 Scenario
+### 🧩 Scenario
 The log file used in this project comes from a **Blue Team Labs Online** challenge:  
 **[Compromised WordPress](https://blueteamlabs.online/home/challenge/log-analysis-compromised-wordpress-ce000f5b59)**
 
@@ -18,7 +18,7 @@ In the scenario, an attacker exploited a vulnerable WordPress plugin to **upload
 
 ---
 
-## 🎯 Objective
+### 🎯 Objective
 1. Perform manual log analysis without SIEM tools.  
 2. Identify suspicious patterns in HTTP requests.  
 3. Extract Indicators of Compromise (IOCs) such as IP addresses, upload paths, and filenames.  
@@ -26,7 +26,7 @@ In the scenario, an attacker exploited a vulnerable WordPress plugin to **upload
 
 ---
 
-## 🧠 Key Findings
+### 🧠 Key Findings
 
 - Vulnerable WordPress plugin allowed arbitrary file uploads.
 - Attacker uploaded fr34k.png, which later appeared as fr34k.php.
@@ -36,7 +36,7 @@ In the scenario, an attacker exploited a vulnerable WordPress plugin to **upload
 
 ---
 
-## 📄 Report
+### 📄 Report
 
 The final findings are summarized in:
 ````reports/Investigation Report.pdf````

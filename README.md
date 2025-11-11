@@ -4,8 +4,6 @@ Welcome to my personal cybersecurity projects repository!
 I’m a cybersecurity student who's especially drawn to **threat intellegence**, **automation** and **digital forensics**.
 I build small projects like these to learn by experience. 
 
----
-
 ## 🚀 Featured Projects  
 
 ### 🧠 [Automated Threat Detection Workflow](./Automated-threat-detection-workflow)

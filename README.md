@@ -1,7 +1,8 @@
 # 🧩 Personal Projects  
 
 Welcome to my personal cybersecurity projects repository!  
-This collection includes hands-on work and experiments I've built to learn and showcase my skills in **SOC automation**, **threat intelligence**, and **incident analysis**.  
+I’m a cybersecurity student who's especially drawn to **threat intellegence**, **automation** and **digital forensics**.
+I build small projects like these to learn by experience. 
 
 ---
 

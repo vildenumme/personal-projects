@@ -1,16 +1,16 @@
 # 🧠 Explanation
 
 ### ⚙️ Workflow Summary
-This workflow connects Splunk with n8n to automate SOC alerts.
+This workflow connects Splunk with n8n to automate security alerts.
 
 1. **🟢 Splunk Alert**
    - Detects suspicious activity (e.g. brute-force attempts)
    - Sends alert via Webhook to n8n
 
 2. **🧩 n8n Workflow**
-   - Receives the alert (Webhook node)
+   - Receives the alert
    - Extracts IOC (IP address)
-   - Looks up IP in **AbuseIPDB** for threat intelligence
+   - Looks up IP in **AbuseIPDB** and **VirusTotal** for OSINT
    - Sends alert details to **AI model** for summarization
    - Posts the enriched and summarized message to **Slack**
 

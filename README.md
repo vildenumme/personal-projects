@@ -1,4 +1,4 @@
-# 🧩 Personal Projects  
+## 🧩 Personal Projects  
 
 Welcome to my personal cybersecurity projects repository!  
 I’m a cybersecurity student who's especially drawn to **threat intellegence**, **automation** and **digital forensics**.
@@ -8,10 +8,10 @@ I build small projects like these to learn by experience.
 
 ## 🚀 Featured Projects  
 
-### 🧠 [Automated SOC Workflow](./Automated-SOC-Workflow)
-Build an end-to-end automated SOC pipeline using **Splunk**, **n8n**, **AI**, and **Slack**.  
+### 🧠 [Automated Threat Detection Workflow](./Automated-threat-detection-workflow)
+An automation-focused project showing how alert data can be enriched and summarized automatically using **Splunk**, **n8n**, **Claude (AI)**, and **Slack**.
 - Detects brute-force attempts in Splunk  
-- Enriches data via AbuseIPDB  
+- Enriches data via AbuseIPDB and VirusTotal
 - Uses AI to summarize incidents  
 - Sends actionable alerts to Slack  
 
@@ -20,23 +20,21 @@ Build an end-to-end automated SOC pipeline using **Splunk**, **n8n**, **AI**, an
 ---
 
 ### 🕵️ [Threat Intel Analysis](./Threat-Intel-analysis)
-A malware static analysis and threat intelligence project focusing on extracting, enriching, and understanding Indicators of Compromise (IOCs).
-- Performs static analysis on malware samples to extract hashes, domains, IPs, and strings
-- Uses OSINT APIs (e.g., VirusTotal) for enrichment
-- Provides summarized threat intelligence on the analyzed samples
-  
-💡 Goal: bridge malware analysis and threat intelligence — turning raw samples into actionable security insights.
+A folder containing different threat intelligence analyses and case studies.
+Each analysis focuses on extracting and enriching Indicators of Compromise (IOCs) to understand attacker behavior.
+Currently includes:
+- Static malware analysis: examining samples to extract hashes, IPs, domains, and strings
+- Compromised WordPress investigation: analyzing logs and network activity to identify potential compromise paths
 
 ---
 
-## 🧠 What I’m Learning  
-- Log analysis & detection engineering – investigating system and security logs to find suspicious activity
-- Threat intelligence – collecting, enriching, and correlating IOCs from OSINT and malware samples
-- SOC automation workflows – integrating Splunk, n8n, and APIs to streamline alert handling
-- API & OSINT integration – using platforms like VirusTotal, AbuseIPDB, and Shodan for enrichment
-- Security documentation & reporting – building clear, actionable summaries of incidents and alerts
+### 🧠 What I’m Learning  
+- Threat Intelligence and enrichment
+- Digital forensics basics
+- Automation and workflow design
+- OSINT and API integration
 
 ---
 
-⭐ **Feel free to explore, fork, and share feedback!**
+⭐ **I build these projects to learn and experiment, feedback or ideas are always welcome!**
 

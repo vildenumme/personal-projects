@@ -28,6 +28,8 @@ PORT    PROTOCOL  SERVICE        VERSION
 
 ## What I changed
 
+![giphy](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGJkMnNmMXcxYjJxaTRnNTVja2tzY2Zla241N3dyaDY5dHN0amJpeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QuP2I5u0tcY7v6LCpp/giphy.gif)
+
 The original scanner from the tutorial was pretty simple. It scanned ports 1-499 one at a time and printed the open ports and banners it found.
 
 I wanted to see if I could build a bit more on top of it, so I added:
